@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply
+  bg-[#484E45]
+  text-[#EDDFBB]
+  flex
+  place-content-center
+}
+
+.main{
+  @apply
+  mt-24
+  flex
+  flex-col
+  gap-20
+  w-[250px]
+}
+
+h1{
+  @apply
+  text-4xl
+}
+
+h2{
+  @apply
+  text-2xl
+  text-[#BBB398]
+}
+
+.first{
+  @apply
+  flex
+  flex-col
+  gap-4
+}
+
+.second{
+  @apply
+  text-2xl
+}
+
+.color{
+  @apply
+  text-[#BBB398]
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
