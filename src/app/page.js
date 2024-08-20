@@ -22,7 +22,7 @@ export default function Home() {
 
           <div className="connect">
             <Link className="btn" href="tel:+18182987426" target="blank_">Call me</Link>
-            <p>or</p>
+            <p className="color">or</p>
 
             <p className="color">
               
