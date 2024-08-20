@@ -15,7 +15,7 @@ body {
   mt-24
   flex
   flex-col
-  gap-20
+  gap-10
   w-[250px]
 }
 
@@ -40,6 +40,9 @@ h2{
 .second{
   @apply
   text-2xl
+  flex
+  flex-col
+  gap-4
 }
 
 .color{
@@ -47,8 +50,32 @@ h2{
   text-[#BBB398]
 }
 
-@layer utilities {
+.btn{
+  @apply
+  flex
+  justify-center
+  w-fit
+  bg-[#EDDFBB]
+  text-[#484E45]
+  font-sans
+  text-base
+  px-6
+  py-2
+  rounded-lg
+}
+
+.connect{
+  @apply
+  flex
+  flex-row
+  gap-4
+  items-center
+  font-sans
+  text-base
+}
+
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
