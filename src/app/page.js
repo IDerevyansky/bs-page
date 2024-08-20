@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main className="main">
       <Image
+        alt="Tree"
         src={Tree}
         width={100}
         height={100}
@@ -29,6 +30,7 @@ export default function Home() {
               <Link target="blank_" href="https://wa.me/18182987426?text=Здравствуйте%20Наталья,%20я%20хочу%20записаться%20к%20вам%20на%20прием.">
               
                 <Image
+                  alt="whatsApp"
                   src={whatsApp}
                   width={30}
                   height={30}
@@ -42,6 +44,7 @@ export default function Home() {
               <Link target="blank_" href="https://t.me/kinesiohub">
 
               <Image
+                  alt="telegram"
                   src={telegram}
                   width={30}
                   height={30}
