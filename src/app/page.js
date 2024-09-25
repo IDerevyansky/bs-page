@@ -15,7 +15,7 @@ export default function Home() {
       />
       <div className="first">
         <h1>Natalia<br/> Derevianskaia</h1>
-        <h2>Kinesiologist</h2>
+        <h2>Kinesiologist-</h2>
       </div>
       <div className="second">
 
