@@ -1,7 +1,8 @@
 body{
     @apply
     bg-white
-    font-sans
+    font-sans !important
+    
 }
 
 .test{
