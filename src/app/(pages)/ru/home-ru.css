@@ -1,11 +1,6 @@
 body{
     @apply
     bg-white
-    font-sans !important
-    
-}
-
-.test{
-    @apply
-    bg-red-600
+    font-sans
+    text-[#484E45]  
 }

@@ -1,6 +1,6 @@
 export default function homeRu(){
     return(
-        <div className="test">
+        <div>
             home ru
         </div>
     )

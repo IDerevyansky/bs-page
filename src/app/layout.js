@@ -1,10 +1,6 @@
-import { Ramaraja } from "next/font/google";
 import "./globals.css";
 
-const ramaraja = Ramaraja({ 
-  weight: '400',
-  subsets: ['latin'],
-});
+
 
 export const metadata = {
   title: "Natalia Derevianskaia",
