@@ -1,4 +1,10 @@
+body{
+    @apply
+    bg-white
+    font-sans
+}
+
 .test{
     @apply
-    bg-purple-600
+    bg-red-600
 }

@@ -1,5 +1,4 @@
 import { Ramaraja } from "next/font/google";
-import { WebVitals } from './web-vitals'
 import "./globals.css";
 
 const ramaraja = Ramaraja({ 
@@ -17,7 +16,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={ramaraja.className}>
-        <WebVitals />
         {children}
       </body>
     </html>
