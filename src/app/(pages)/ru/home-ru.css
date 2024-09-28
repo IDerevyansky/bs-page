@@ -2,5 +2,31 @@ body{
     @apply
     bg-white
     font-sans
-    text-[#484E45]  
+    text-[#484E45]
+    flex
+    flex-col
+}
+
+.menu-box{
+    @apply
+    border
+    border-red-500
+    flex
+    justify-center
+}
+
+.menu{
+    @apply
+    flex
+    flex-row
+    justify-between
+    border
+    w-[600px]
+}
+
+.menu-itmems{
+    @apply
+    flex
+    flex-row
+    gap-2
 }

@@ -10,7 +10,21 @@ export const metadata = {
   
     return (
       <html lang="ru">
-        <body className="test">
+        <body>
+            
+            <div className="menu-box">
+
+                <div className="menu">
+                    <div>logo</div>
+                    <div className="menu-itmems">
+                        <p>item</p>
+                        <p>item</p>
+                        <p>item</p>
+                    </div>
+                </div> 
+
+            </div> 
+
           {children}
         </body>
       </html>
