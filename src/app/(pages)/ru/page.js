@@ -1,8 +1,8 @@
-import 'home-ru.css';
+import './home-ru.css';
 
 export default function homeRu(){
     return(
-        <div className="t">
+        <div className="test">
             home ru
         </div>
     )
