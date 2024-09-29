@@ -1,7 +1,9 @@
 export default function homeRu(){
+
     return(
-        <div>
+        <div className="h">
             home ru
         </div>
     )
+    
 }

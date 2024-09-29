@@ -1,0 +1,16 @@
+{
+    "menu":[
+        {
+            "name":"Обо мне",
+            "link":"/ru/about"
+        },
+        {
+            "name":"Кинезиология",
+            "link":"/ru/kinesiology"
+        }, 
+        {
+            "name":"Блог",
+            "link":"/ru/blog"
+        }
+    ]
+}
