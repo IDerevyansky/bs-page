@@ -1,0 +1,38 @@
+.leftSide{
+    @apply
+    w-full
+    flex
+    flex-col
+    gap-4
+    justify-center
+
+}
+
+.rightSide{
+    @apply
+    w-fit
+
+}
+
+.img{
+    @apply
+    w-[300px]
+    h-[300px]
+    rounded-lg
+    md:w-[400px]
+    md:h-[400px]
+}
+
+.text{
+    @apply
+    flex
+    flex-col
+    gap-4
+}
+
+.socialIcon{
+    @apply
+    flex
+    flex-row
+    gap-4
+}
