@@ -1,7 +1,7 @@
-*{
+/* *{
     @apply
     border
-}
+} */
 
 body{
     @apply
@@ -22,7 +22,8 @@ body{
 .contentBox{
     @apply
     flex
-    flex-row
+    flex-col
+    sm:flex-row
     gap-4
     px-4
     w-[1024px]
@@ -33,6 +34,8 @@ h1{
     text-4xl
     font-medium
 }
+
+
 
 
 
