@@ -36,3 +36,13 @@
     flex-row
     gap-4
 }
+
+.appointment{
+    @apply
+    flex
+    border
+    border-[#484E45]
+    rounded-full
+    px-4
+    place-items-center
+}

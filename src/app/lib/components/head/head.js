@@ -1,5 +1,10 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import './head.css';
+
+import fb from '@/app/lib/img/fb.svg';
+import inst from '@/app/lib/img/in.svg';
+import tg from '@/app/lib/img/tg.svg';
 
 export default function Head(){
     return(
@@ -13,9 +18,38 @@ export default function Head(){
                     <Link href='/ru/about'><p className='text-blue-500'>Подробнее...</p></Link>
                 </div>
                 <div className='socialIcon'>
-                    <p>In</p>
-                    <p>Tg</p>
-                    <p>Fb</p>
+
+                    <Link href='#'>
+                        <Image
+                        src={fb}
+                        width='32px'
+                        height='32px'
+                        alt='facebook'
+                        />
+                    </Link>
+
+                    <Link href='#'>
+                        <Image
+                        src={inst}
+                        width='32px'
+                        height='32px'
+                        alt='instagram'
+                        />
+                    </Link>
+
+                    <Link href='#'>
+                        <Image
+                        src={tg}
+                        width='32px'
+                        height='32px'
+                        alt='telegram'
+                        />
+                    </Link>
+
+                    <Link href='#' className='appointment'>
+                        Appointment
+                    </Link>
+
                 </div>
 
             </div>
@@ -29,3 +63,4 @@ export default function Head(){
         </div>
     )
 }
+//fb-in-tg-wt

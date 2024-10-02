@@ -22,7 +22,7 @@ body{
 .contentBox{
     @apply
     flex
-    flex-col
+    flex-col-reverse
     sm:flex-row
     gap-4
     px-4
@@ -33,6 +33,11 @@ h1{
     @apply
     text-4xl
     font-medium
+}
+
+p{
+    @apply
+    text-base
 }
 
 
