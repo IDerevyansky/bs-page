@@ -16,28 +16,49 @@ body{
 .mainContainer{
     @apply
     flex
+    flex-col
+    mx-auto
     justify-center
+    gap-52
 }
 
 .contentBox{
     @apply
-    flex
-    flex-col-reverse
-    sm:flex-row
-    gap-4
     px-4
-    w-[1024px]
+    max-w-[1024px]
+}
+
+.img{
+    @apply
+    rounded-lg
+    bg-[#484E45]
 }
 
 h1{
     @apply
     text-4xl
     font-medium
+    text-[#484E45]
+}
+
+h2{
+ @apply
+ text-3xl
+ font-medium
+ text-[#484E45]
+}
+
+h3{
+    @apply
+    text-2xl
+    font-medium
+    text-[#484E45]
 }
 
 p{
     @apply
     text-base
+    text-[#484E45]
 }
 
 

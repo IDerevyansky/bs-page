@@ -13,14 +13,12 @@
     w-fit
 }
 
-.img{
+.img-head-size{
     @apply
     w-[300px]
     h-[300px]
-    rounded-lg
     md:w-[400px]
     md:h-[400px]
-    bg-[#484E45]
 }
 
 .text{
@@ -45,4 +43,12 @@
     rounded-full
     px-4
     place-items-center
+}
+
+.HeadBox{
+    @apply
+    flex
+    flex-col-reverse
+    sm:flex-row
+    gap-4
 }

@@ -47,7 +47,7 @@ export default function Menu(){
 
             <div className="menu">
     
-                <div className="logo"><Link href='/'><p>kinesiohub.com</p></Link></div>
+                <div className="logo"><Link href='/'><p className='text-lg'>kinesiohub.com</p></Link></div>
 
                 <div className="mob-menu-icon" onClick={()=>mobMenu == 'flex'? setMobMenu('hidden'):setMobMenu('flex')}>
 

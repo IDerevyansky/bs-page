@@ -8,7 +8,7 @@ import tg from '@/app/lib/img/tg.png';
 
 export default function Head(){
     return(
-        <div className='contentBox'>
+        <div className='HeadBox contentBox'>
 
             <div className='leftSide'>
 
@@ -56,7 +56,7 @@ export default function Head(){
 
             <div className='rightSide'>
 
-                <div className='img'></div>
+                <div className='img img-head-size'></div>
 
             </div>
 
