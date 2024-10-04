@@ -2,12 +2,19 @@ import Head from "@/app/lib/components/head/head";
 import ImgText from "@/app/lib/components/img-text/imgtext";
 import TextBlock from "@/app/lib/components/text-block/textblock";
 
+import DATA from '@/app/lib/data/data-ru.json';
 
 export default function homeRu(){
 
+    // console.log(DATA.pages[0].content[0]);
+
     return(
         <div className="mainContainer">
-            <Head/>
+
+            <Head
+            data={DATA.pages[0].content[0]}
+            />
+
             <TextBlock/>
             <ImgText/>
         </div>

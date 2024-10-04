@@ -12,5 +12,31 @@
             "name":"Блог",
             "link":"/ru/blog"
         }
+    ],
+    "pages":[
+        {
+            "namePage":"main",
+            "urlPage":"/ru",
+            "content":[
+                {
+                    "block":"head",
+                    "title":"Lorem ipsum dolor sit amet consectet",
+                    "description":"Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.",
+                    "img":"url/img",
+                    "link":"/ru/about",
+                    "more":"Подробнее...",
+                    "fb":"#",
+                    "in":"#",
+                    "tg":"#",
+                    "appointment":"Записаться",
+                    "linkAppointment":"https://wa.me/18182987426?text=Здравствуйте%20Наталья,%20я%20хочу%20записаться%20к%20вам%20на%20прием."
+                }
+            ]
+        },
+        {
+            "namePage":"about",
+            "urlPage":"/ru/about",
+            "content":[]
+        }
     ]
 }

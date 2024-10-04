@@ -6,20 +6,23 @@ import fb from '@/app/lib/img/fb.png';
 import inst from '@/app/lib/img/in.png';
 import tg from '@/app/lib/img/tg.png';
 
-export default function Head(){
+export default function Head(props){
+
+    let content = props.data;
+
     return(
         <div className='HeadBox contentBox'>
 
             <div className='leftSide'>
 
                 <div className='text'>
-                    <h1 className='line-clamp-2'>Lorem ipsum dolor sit amet consectet</h1>
-                    <p className="line-clamp-4">Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.</p>
-                    <Link href='/ru/about'><p className='text-blue-500'>Подробнее...</p></Link>
+                    <h1 className='line-clamp-2'>{content.title}</h1>
+                    <p className="line-clamp-4">{content.description}</p>
+                    <Link href={content.link}><p className='text-blue-500'>{content.more}</p></Link>
                 </div>
                 <div className='socialIcon'>
 
-                    <Link href='#' target='blank_'>
+                    <Link href={content.fb} target='blank_'>
                         <Image
                         src={fb}
                         width='32'
@@ -28,7 +31,7 @@ export default function Head(){
                         />
                     </Link>
 
-                    <Link href='#' target='blank_'>
+                    <Link href={content.in} target='blank_'>
                         <Image
                         src={inst}
                         width='32'
@@ -37,7 +40,7 @@ export default function Head(){
                         />
                     </Link>
 
-                    <Link href='#' target='blank_'>
+                    <Link href={content.tg} target='blank_'>
                         <Image
                         src={tg}
                         width='32'
@@ -46,8 +49,8 @@ export default function Head(){
                         />
                     </Link>
 
-                    <Link href='https://wa.me/18182987426?text=Здравствуйте%20Наталья,%20я%20хочу%20записаться%20к%20вам%20на%20прием.' target='blank_' className='appointment'>
-                        Appointment
+                    <Link href={content.linkAppointment} target='blank_' className='appointment'>
+                        {content.appointment}
                     </Link>
 
                 </div>
