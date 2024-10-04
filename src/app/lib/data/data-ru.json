@@ -23,14 +23,40 @@
                     "title":"Lorem ipsum dolor sit amet consectet",
                     "description":"Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.",
                     "img":"url/img",
-                    "link":"/ru/about",
+                    "linkMore":"/ru/about",
                     "more":"Подробнее...",
                     "fb":"#",
                     "in":"#",
                     "tg":"#",
                     "appointment":"Записаться",
                     "linkAppointment":"https://wa.me/18182987426?text=Здравствуйте%20Наталья,%20я%20хочу%20записаться%20к%20вам%20на%20прием."
+                },
+                {
+                    "block":"textblock",
+                    "title":"Lorem ipsum dolor sit amet consectet",
+                    "description":"Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.",
+                    "more":"Подробнее...",
+                    "linkMore":"/#"
+                },
+                {
+                    "block":"imgtext",
+                    "orientation":"default",
+                    "title":"Lorem ipsum dolor sit amet consectet",
+                    "description":"Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac. Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac.",
+                    "img":"url/img",
+                    "more":"Подробнее...",
+                    "linkMore":"/#"
+                },
+                {
+                    "block":"imgtext",
+                    "orientation":"reverse",
+                    "title":"--Lorem ipsum dolor sit amet consectet",
+                    "description":"Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac. Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac.",
+                    "img":"url/img",
+                    "more":"Подробнее...",
+                    "linkMore":"/#"
                 }
+
             ]
         },
         {

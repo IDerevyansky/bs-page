@@ -15,8 +15,18 @@ export default function homeRu(){
             data={DATA.pages[0].content[0]}
             />
 
-            <TextBlock/>
-            <ImgText/>
+            <TextBlock
+            data={DATA.pages[0].content[1]}
+            />
+
+            <ImgText
+            data={DATA.pages[0].content[2]}
+            />
+            
+            <ImgText
+            data={DATA.pages[0].content[3]}
+            />
+
         </div>
     )
 

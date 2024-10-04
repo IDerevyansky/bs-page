@@ -6,11 +6,11 @@
     gap-4
 }
 
-.orientation-revers{
+.orientation-reverse{
     @apply
     flex
     flex-col-reverse
-    sm:flex-row
+    sm:flex-row-reverse
     gap-4
 }
 

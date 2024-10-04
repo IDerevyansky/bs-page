@@ -18,7 +18,7 @@ export default function Head(props){
                 <div className='text'>
                     <h1 className='line-clamp-2'>{content.title}</h1>
                     <p className="line-clamp-4">{content.description}</p>
-                    <Link href={content.link}><p className='text-blue-500'>{content.more}</p></Link>
+                    <Link href={content.linkMore}><p className='text-blue-500'>{content.more}</p></Link>
                 </div>
                 <div className='socialIcon'>
 
