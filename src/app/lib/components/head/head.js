@@ -11,58 +11,60 @@ export default function Head(props){
     let content = props.data;
 
     return(
-        <div className='HeadBox contentBox'>
+        <div className="bgBox">
+            <div className='HeadBox contentBox'>
 
-            <div className='leftSide'>
+                <div className='leftSide'>
 
-                <div className='text'>
-                    <h1 className='line-clamp-2'>{content.title}</h1>
-                    <p className="line-clamp-4">{content.description}</p>
-                    <Link href={content.linkMore}><p className='text-blue-500'>{content.more}</p></Link>
+                    <div className='text'>
+                        <h1 className='line-clamp-2'>{content.title}</h1>
+                        <p className="line-clamp-4">{content.description}</p>
+                        <Link href={content.linkMore}><p className='text-blue-500'>{content.more}</p></Link>
+                    </div>
+                    <div className='socialIcon'>
+
+                        <Link href={content.fb} target='blank_'>
+                            <Image
+                            src={fb}
+                            width='32'
+                            height='32'
+                            alt='facebook'
+                            />
+                        </Link>
+
+                        <Link href={content.in} target='blank_'>
+                            <Image
+                            src={inst}
+                            width='32'
+                            height='32'
+                            alt='instagram'
+                            />
+                        </Link>
+
+                        <Link href={content.tg} target='blank_'>
+                            <Image
+                            src={tg}
+                            width='32'
+                            height='32'
+                            alt='telegram'
+                            />
+                        </Link>
+
+                        <Link href={content.linkAppointment} target='blank_' className='appointment'>
+                            {content.appointment}
+                        </Link>
+
+                    </div>
+
                 </div>
-                <div className='socialIcon'>
 
-                    <Link href={content.fb} target='blank_'>
-                        <Image
-                        src={fb}
-                        width='32'
-                        height='32'
-                        alt='facebook'
-                        />
-                    </Link>
+                <div className='rightSide'>
 
-                    <Link href={content.in} target='blank_'>
-                        <Image
-                        src={inst}
-                        width='32'
-                        height='32'
-                        alt='instagram'
-                        />
-                    </Link>
-
-                    <Link href={content.tg} target='blank_'>
-                        <Image
-                        src={tg}
-                        width='32'
-                        height='32'
-                        alt='telegram'
-                        />
-                    </Link>
-
-                    <Link href={content.linkAppointment} target='blank_' className='appointment'>
-                        {content.appointment}
-                    </Link>
+                    <div className='img img-head-size'></div>
 
                 </div>
 
             </div>
-
-            <div className='rightSide'>
-
-                <div className='img img-head-size'></div>
-
-            </div>
-
         </div>
     )
 }

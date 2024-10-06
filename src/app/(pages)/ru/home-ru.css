@@ -1,7 +1,7 @@
-*{
+/* *{
     @apply
     border
-}
+} */
 
 body{
     @apply
@@ -17,9 +17,18 @@ body{
     @apply
     flex
     flex-col
+    w-full
     mx-auto
     justify-center
     gap-52
+}
+
+.bgBox{
+    @apply
+    flex
+    flex-col
+    items-center
+    py-6
 }
 
 .contentBox{

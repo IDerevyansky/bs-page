@@ -10,7 +10,8 @@
 
 .rightSide{
     @apply
-    w-fit
+    w-full
+    sm:w-fit
 }
 
 .img-head-size{

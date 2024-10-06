@@ -16,7 +16,7 @@
 
 .img-text-size{
     @apply
-    w-[400px]
+    w-full
     h-[300px]
     md:w-[400px]
     md:h-[300px]
