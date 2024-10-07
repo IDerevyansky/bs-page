@@ -20,7 +20,7 @@ body{
     w-full
     mx-auto
     justify-center
-    gap-52
+    gap-24
 }
 
 .bgBox{
@@ -28,7 +28,12 @@ body{
     flex
     flex-col
     items-center
-    py-6
+    py-24
+}
+
+.color{
+    @apply
+    bg-[#FAF5EB]
 }
 
 .contentBox{
@@ -69,6 +74,47 @@ p{
     text-base
     text-[#484E45]
 }
+
+.reverse{
+    @apply
+    flex
+    flex-col-reverse
+    sm:flex-row-reverse
+    gap-4
+}
+
+.default{
+    @apply
+    flex
+    flex-col-reverse
+    sm:flex-row
+    gap-4
+}
+
+.center{
+    @apply
+    flex
+    flex-col
+    text-center
+}
+
+.left{
+    @apply
+    flex
+    flex-col
+    text-left
+}
+
+.right{
+    @apply
+    flex
+    flex-col
+    text-right
+}
+
+
+
+
 
 
 

@@ -7,9 +7,11 @@ export default function ImgText(props){
 
     let content = props.data;
 
+    let orientation = props.orientation(content.orientation);
+
     return(
-        <div className="bgBox">
-            <div className={props.data.orientation == 'default'?'contentBox orientation':'contentBox orientation-reverse'}>
+        <div className={content.bg == 'true' ? "bgBox color" : "bgBox"}>
+            <div className={orientation}>
         
                 <div className='leftSide'>
                     <h2 className='line-clamp-2'>{content.title}</h2>

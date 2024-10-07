@@ -9,10 +9,12 @@ import tg from '@/app/lib/img/tg.png';
 export default function Head(props){
 
     let content = props.data;
+    let orientation = props.orientation(content.orientation);
 
     return(
-        <div className="bgBox">
-            <div className='HeadBox contentBox'>
+        <div className={content.bg == 'true' ? "bgBox color" : "bgBox"}>
+            {/* <div className='HeadBox contentBox'> */}
+            <div className={orientation}>
 
                 <div className='leftSide'>
 
