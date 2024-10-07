@@ -39,6 +39,7 @@ body{
 .contentBox{
     @apply
     px-4
+    w-full
     max-w-[1024px]
 }
 
@@ -103,13 +104,15 @@ p{
     flex
     flex-col
     text-left
+    sm:text-left
 }
 
 .right{
     @apply
     flex
     flex-col
-    text-right
+    text-left
+    sm:text-right
 }
 
 

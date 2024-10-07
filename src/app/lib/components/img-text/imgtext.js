@@ -13,7 +13,8 @@ export default function ImgText(props){
         <div className={content.bg == 'true' ? "bgBox color" : "bgBox"}>
             <div className={orientation}>
         
-                <div className='leftSide'>
+                {/* <div className='leftSide'> */}
+                <div className={ content.orientation=='reverse'?'leftSide':'leftSide right' }>
                     <h2 className='line-clamp-2'>{content.title}</h2>
                     <p className="line-clamp-4">{content.description}</p>
                     {content.more && content.linkMore == ''?'':<Link href={content.linkMore}><p className='text-blue-500'>{content.more}</p></Link>}

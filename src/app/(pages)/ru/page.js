@@ -1,3 +1,4 @@
+import Blog from "@/app/lib/components/blog/blog";
 import Head from "@/app/lib/components/head/head";
 import ImgText from "@/app/lib/components/img-text/imgtext";
 import TextBlock from "@/app/lib/components/text-block/textblock";
@@ -54,10 +55,19 @@ export default function homeRu(){
             orientation = {xy}
             data={DATA.pages[0].content[2]}
             />
+
+            <TextBlock
+            orientation = {xy}
+            data={DATA.pages[0].content[3]}
+            />
             
             <ImgText
             orientation = {xy}
-            data={DATA.pages[0].content[3]}
+            data={DATA.pages[0].content[4]}
+            />
+
+            <Blog
+            data={DATA.pages[0].content[5]}
             />
 
         </div>
