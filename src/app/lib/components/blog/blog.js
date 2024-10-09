@@ -1,11 +1,10 @@
 import Link from 'next/link';
 import './blog.css';
+import data from '../../data/data';
 
 export default function Blog(props){
 
     let content = props.data;
-
-    console.log(dataBlog.blog);
 
     return(
 
@@ -19,17 +18,17 @@ export default function Blog(props){
 
                 <div className='BlogItems'>
 
-                    <Link href='ru/#' className='eachItem'>
-                        <h3 className='line-clamp-2'>Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p className='line-clamp-[7]'>Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.</p>
+                    <Link href='ru/blog/#' className='eachItem'>
+                        <h3 className='line-clamp-2'>{data('blog')[0].title}</h3>
+                        <p className='line-clamp-[7]'>{data('blog')[0].description}</p>
                     </Link>
-                    <Link href='ru/#' className='eachItem'>
-                        <h3 className='line-clamp-2'>Lorem ipsum dolor sit amet consectetur sit amet consectetur.</h3>
-                        <p className='line-clamp-[7]'>Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. </p>
+                    <Link href='ru/blog/#' className='eachItem'>
+                        <h3 className='line-clamp-2'>{data('blog')[1].title}</h3>
+                        <p className='line-clamp-[7]'>{data('blog')[1].description}</p>
                     </Link>
-                    <Link href='ru/#' className='eachItem'>
-                        <h3 className='line-clamp-2'>Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p className='line-clamp-[7]'>Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.</p>
+                    <Link href='ru/blog/#' className='eachItem'>
+                        <h3 className='line-clamp-2'>{data('blog')[2].title}</h3>
+                        <p className='line-clamp-[7]'>{data('blog')[2].description}</p>
                     </Link>
 
                 </div>

@@ -2,12 +2,11 @@ import Blog from "@/app/lib/components/blog/blog";
 import Head from "@/app/lib/components/head/head";
 import ImgText from "@/app/lib/components/img-text/imgtext";
 import TextBlock from "@/app/lib/components/text-block/textblock";
+import data from "@/app/lib/data/data";
 
-import DATA from '@/app/lib/data/data-ru.json';
 
 export default function homeRu(){
 
-    // console.log(DATA.pages[0].content[0]);
 
     //function orientation content default|reverse|left|right|center
     let xy = (q)=>{
@@ -43,31 +42,31 @@ export default function homeRu(){
 
             <Head
             orientation = {xy}
-            data={DATA.pages[0].content[0]}
+            data={data('ru').pages[0].content[0]}
             />
 
             <TextBlock
             orientation = {xy}
-            data={DATA.pages[0].content[1]}
+            data={data('ru').pages[0].content[1]}
             />
 
             <ImgText
             orientation = {xy}
-            data={DATA.pages[0].content[2]}
+            data={data('ru').pages[0].content[2]}
             />
 
             <TextBlock
             orientation = {xy}
-            data={DATA.pages[0].content[3]}
+            data={data('ru').pages[0].content[3]}
             />
             
             <ImgText
             orientation = {xy}
-            data={DATA.pages[0].content[4]}
+            data={data('ru').pages[0].content[4]}
             />
 
             <Blog
-            data={DATA.pages[0].content[5]}
+            data={data('ru').pages[0].content[5]}
             />
 
         </div>

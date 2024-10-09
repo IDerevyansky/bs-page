@@ -64,7 +64,7 @@
                 {
                     "block":"imgtext",
                     "orientation":"reverse",
-                    "title":"--Lorem ipsum dolor sit amet consectet",
+                    "title":"Lorem ipsum dolor sit amet consectet",
                     "description":"Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac. Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac.",
                     "img":"url/img",
                     "bg":"false",
@@ -74,7 +74,6 @@
                 {
                     "block":"blog",
                     "title":"Blog",
-                    "description":[],
                     "bg":"true",
                     "more":"Все новости...",
                     "linkMore":"/ru/blog"
