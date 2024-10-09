@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import './blog.css';
-import dataBlog from '@/app/lib/data/data-blog.json'
 
 export default function Blog(props){
 
