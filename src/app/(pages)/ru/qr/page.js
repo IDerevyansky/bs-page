@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import './qr.css';
 import Link from 'next/link';
-//import Card from '@/app/lib/vCard.vcf';
+import { saveAs } from 'file-saver';
 
 export default function Qr(){
 
@@ -11,11 +11,11 @@ export default function Qr(){
     useEffect(()=>{
 
         let bsCard = document.getElementsByClassName('bsCard');
-        // let vCard = document.getElementsByClassName('vCard');
+        let vCard = document.getElementsByClassName('vCard');
 
 
         bsCard[0].addEventListener('click', ()=> ( toggle == 'front'?setToggle('back'):setToggle('front') ));
-        // vCard[0].addEventListener('click', () => ( ));
+        vCard[0].addEventListener('click', () => ( saveAs('../../../lib/vCard.vcf', 'vCard.vcf') ));
         
     })
 
@@ -27,7 +27,7 @@ export default function Qr(){
 
                 <div className={'bsCard '+toggle}></div>
 
-                {/* <Link href={'../../lib/vCard.vcf'} className='vCard' download><p className="text-white">Добавить в контакты</p></Link> */}
+                <div className='vCard'><p className="text-white">Добавить в контакты</p></div>
                
             </div>
 
