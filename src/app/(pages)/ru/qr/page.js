@@ -15,7 +15,7 @@ export default function Qr(){
 
 
         bsCard[0].addEventListener('click', ()=> ( toggle == 'front'?setToggle('back'):setToggle('front') ));
-        vCard[0].addEventListener('click', () => ( saveAs('../../../lib/vCard.vcf', 'vCard.vcf') ));
+        vCard[0].addEventListener('click', () => ( saveAs('https://raw.githubusercontent.com/IDerevyansky/bs-page/refs/heads/main/src/app/lib/vCard.vcf', 'vCard.vcf') ));
         
     })
 
