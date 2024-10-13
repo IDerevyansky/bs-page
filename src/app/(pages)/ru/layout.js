@@ -2,8 +2,8 @@ import Menu from "@/app/lib/components/menu/menu";
 import "./home-ru.css";
 
 export const metadata = {
-    title: "title",
-    description: "description",
+    title: "Natalia Derevianskaia",
+    description: "Natalia Derevianskaia - Kinesiologist tel:+1 818 298 74 26",
   };
 
 
