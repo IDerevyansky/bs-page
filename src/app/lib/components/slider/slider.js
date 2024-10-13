@@ -1,6 +1,9 @@
 "use client"
 import { useEffect } from 'react';
 import './slider.css';
+import LeftIcon from '@/app/lib/img/left.svg';
+import RightIcon from '@/app/lib/img/right.svg';
+import Image from 'next/image';
 
 export default function Slider(props){
 
@@ -28,7 +31,7 @@ export default function Slider(props){
 
                     slider[0].scroll({
                         // top: 100,
-                        left: leftSide + 312,
+                        left: leftSide + 524,
                         behavior: "smooth",
                     })
        
@@ -38,7 +41,7 @@ export default function Slider(props){
 
                     slider[0].scroll({
                         // top: 100,
-                        left: leftSide - 312,
+                        left: leftSide - 524,
                         behavior: "smooth",
                     })
                     
@@ -67,20 +70,35 @@ export default function Slider(props){
                 <div className='sliderTitle'>
                     <h2>{content.title}</h2>
                     <div className="BlockBtn">
-                        <div className='btnSlider'>Назад</div>
-                        <div className='btnSlider'>Вперед</div>
+                        <div className='btnSlider'>
+                            <Image
+                            src={LeftIcon}
+                            width='24'
+                            height='24'
+                            alt='icon left'
+                            />
+                        </div>
+                        <div className='btnSlider'>
+                            <Image
+                            src={RightIcon}
+                            width='24'
+                            height='24'
+                            alt='icon right'
+                            />
+                        </div>
                     </div>
 
                 </div>
 
                 <div className="slider">
 
-                     <div className="slide"></div>
-                     <div className="slide"></div>
-                     <div className="slide"></div>
-                     <div className="slide"></div>
-                     <div className="slide"></div>
-                     <div className="slide"></div>
+                    {content.content.map((item, key)=>{
+
+                        return <div key={key} className="slide"><p className="line-clamp-none">{item}</p></div>       
+
+                    })}
+                     
+                   
 
                 </div>
 

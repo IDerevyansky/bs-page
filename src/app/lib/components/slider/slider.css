@@ -11,9 +11,12 @@
 .slide{
     @apply
     min-w-[288px]
-    h-[150px]
-    bg-[#484E45]
+    sm:min-w-[500px]
+    h-full
+    bg-[#FAF5EB]
     rounded-xl
+    p-4
+    overflow-hidden
 }
 
 .sliderTitle{
@@ -42,7 +45,7 @@
     border
     border-[#484E45]
     rounded-full
-    px-4
+    px-1
     py-1
     active:bg-[#484E45]/10
 }

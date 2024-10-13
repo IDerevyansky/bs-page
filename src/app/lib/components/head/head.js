@@ -11,8 +11,6 @@ export default function Head(props){
     let content = props.data;
     let orientation = props.orientation(content.orientation);
 
-    console.log(content);
-
     return(
         <div className={content.bg == 'true' ? "bgBox color" : "bgBox"}>
             {/* <div className='HeadBox contentBox'> */}
