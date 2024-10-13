@@ -10,7 +10,7 @@ body{
     text-[#484E45]
     flex
     flex-col
-    pt-[60px]
+    py-[64px]
 }
 
 .mainContainer{
@@ -20,7 +20,7 @@ body{
     w-full
     mx-auto
     justify-center
-    gap-24
+    gap-20
 }
 
 .bgBox{
@@ -28,8 +28,8 @@ body{
     flex
     flex-col
     items-center
-    py-6
-    sm:py-24
+    /* py-20 */
+    /* sm:py-24 */
 }
 
 .color{
@@ -42,6 +42,9 @@ body{
     px-4
     w-full
     max-w-[1024px]
+    flex
+    flex-col
+    gap-8
 }
 
 .img{
@@ -62,7 +65,7 @@ h1{
 h2{
  @apply
  text-3xl
- /* font-serif */
+ font-serif
  font-medium
  text-[#484E45]
 }

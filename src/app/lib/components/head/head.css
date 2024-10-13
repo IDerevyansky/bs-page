@@ -20,8 +20,6 @@
     bg-cover
     w-[300px]
     h-[300px]
-    md:w-[400px]
-    md:h-[400px]
 }
 
 .text{
@@ -31,14 +29,14 @@
     gap-4
 }
 
-.socialIcon{
+/* .socialIcon{
     @apply
     flex
     flex-row
     gap-4
-}
+} */
 
-.appointment{
+/* .appointment{
     @apply
     flex
     border
@@ -46,7 +44,7 @@
     rounded-full
     px-4
     place-items-center
-}
+} */
 
 .HeadBox{
     @apply

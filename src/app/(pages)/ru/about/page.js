@@ -13,20 +13,7 @@ export default function about(){
 return(
     <div className="mainContainer">
     
-        <Head
-        orientation = {data.xy}
-        data={data.ru('main').pages[1].content[0]}
-        />
-
-        <TextBlock
-        orientation = {data.xy}
-        data={data.ru('main').pages[1].content[1]}
-        />
-
-        <TextBlock
-        orientation = {data.xy}
-        data={data.ru('main').pages[1].content[2]}
-        />
+  
 
     </div>
 

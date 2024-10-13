@@ -1,4 +1,6 @@
+import About from "@/app/lib/components/about/about";
 import Blog from "@/app/lib/components/blog/blog";
+import Faq from "@/app/lib/components/faq/Faq";
 import Head from "@/app/lib/components/head/head";
 import ImgText from "@/app/lib/components/img-text/imgtext";
 import Slider from "@/app/lib/components/slider/slider";
@@ -15,29 +17,37 @@ export default function homeRu(){
 
         <div className="mainContainer">
 
-            <Head
-            orientation = {data.xy}
+            <About
             data={data.ru('main').pages[0].content[0]}
             />
 
-            <TextBlock
+            {/* <Head
+            orientation = {data.xy}
+            data={data.ru('main').pages[0].content[0]}
+            /> */}
+
+            {/* <TextBlock
             orientation = {data.xy}
             data={data.ru('main').pages[0].content[1]}
-            />
+            /> */}
 
-            <TextBlock
+            {/* <TextBlock
             orientation = {data.xy}
             data={data.ru('main').pages[0].content[2]}
-            />
+            /> */}
 
-            <Blog
+            {/* <Blog
             posts={data.ru('blog')}
             data={data.ru('main').pages[0].content[3]}
-            />
+            /> */}
 
-            <Slider
+            {/* <Slider
             data={data.ru('main').pages[0].content[4]}
-            />
+            /> */}
+
+            {/* <Faq
+            data={data.ru('main').pages[0].content[5]}
+            /> */}
 
         </div>
 

@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:4.0
+CLASS:public
+CLIENTPIDMAP:1;urn:uuid:3df403f4-5924-4bb7-b077-3c711d9eb34b
+FN:Natalia Derevianskaia
+GENDER:F
+N:Natalia;Derevianskaia;
+KIND:individual
+PROFILE:VCARD
+ROLE:Kinesiologist
+TITLE:Kinesiologist
+TEL;TYPE=cell:+1 (818) 298-7426
+URL:https://www.kinesiohub.com/
+URL:https://www.facebook.com/natali.ruznikova
+URL:https://www.instagram.com/natalia.kinesio
+URL:https://t.me/zametkikineziologa
+SOURCE:https://github.com/IDerevyansky/bs-page/blob/dev/src/app/lib/vCard.vcf
+PHOTO:https://github.com/IDerevyansky/bs-page/blob/dev/src/app/lib/img/personalPhoto.jpg
+END:VCARD
+

@@ -1,0 +1,45 @@
+.socialIcon{
+    @apply
+    flex
+    flex-row
+    gap-5
+}
+
+.img-head-size{
+    @apply
+    bg-[url('../../img/personalPhoto.jpg')]
+    bg-cover
+    w-[300px]
+    h-[300px]
+}
+
+.sign{
+    @apply
+    bg-[url('../../img/sign.jpg')]
+    bg-cover
+    w-[300px]
+    h-[122px]
+}
+
+.appointment{
+    @apply
+    flex
+    w-fit
+    border-2
+    border-[#484E45]
+    rounded-full
+    px-6
+    py-1
+    sm:px-4
+    place-items-center
+}
+
+.iconBox{
+    @apply
+    flex
+    flex-col
+    gap-4
+    sm:flex-row
+    items-start
+    sm:items-center
+}
