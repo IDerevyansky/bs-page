@@ -1,5 +1,6 @@
 import Menu from "@/app/lib/components/menu/menu";
 import "./home-ru.css";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
     title: "Natalia Derevianskaia",
@@ -12,6 +13,7 @@ export const metadata = {
     return (
       <html lang="ru">
         <body>
+            <Analytics/>
             <Menu/>
             {children}
         </body>
