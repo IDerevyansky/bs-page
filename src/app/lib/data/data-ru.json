@@ -1,7 +1,7 @@
 {
     "menu":[
         {
-            "name":"Обо мне",
+            "name":"О себе",
             "link":"/ru/about"
         },
         {
@@ -20,10 +20,12 @@
             "content":[
                 {
                     "block":"head",
-                    "title":"Lorem ipsum dolor sit amet consectet",
-                    "description":"Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.",
+                    "title":"Немного обо мне",
+                    "lengthTitle":"2",
+                    "description":"Меня зовут Наталья Деревянская, я магистр психологии, кинезиолог, нейрокинезиолог и психотерапевтический кинезиолог.",
+                    "lengthDescription":"5",
                     "orientation":"default", 
-                    "img":"url/img",
+                    "img":"../img/personalFoto.jpg",
                     "bg":"false",
                     "linkMore":"/ru/about",
                     "more":"Подробнее...",
@@ -35,41 +37,25 @@
                 },
                 {
                     "block":"textblock",
-                    "orientation":"left", 
-                    "title":"Lorem ipsum dolor sit amet consectet",
-                    "description":"Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. <br/><br/> Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.",
-                    "bg":"false",
-                    "more":"Подробнее...",
-                    "linkMore":"ru/#"
-                },
-                {
-                    "block":"imgtext",
-                    "orientation":"default",
-                    "title":"Lorem ipsum dolor sit amet consectet",
-                    "description":"Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac. Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac.",
-                    "img":"url/img",
-                    "bg":"false",
-                    "more":"Подробнее...",
-                    "linkMore":"ru/#"
-                },
-                {
-                    "block":"textblock",
                     "orientation":"center", 
-                    "title":"Lorem ipsum dolor sit amet consectet",
-                    "description":"Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.",
+                    "title":"Моя миссия — помогать людям находить гармонию между телом, разумом и эмоциями, снимая внутренние блоки и восстанавливая баланс.",
+                    "h2":"font-serif",
+                    "description":"",
+                    "p":"font-sans",
                     "bg":"true",
                     "more":"Подробнее...",
                     "linkMore":""
                 },
                 {
-                    "block":"imgtext",
-                    "orientation":"reverse",
-                    "title":"Lorem ipsum dolor sit amet consectet",
-                    "description":"Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac. Lorem ipsum dolor sit amet consectetur. Consequat amet tristique est id egestas etiam mauris elementum urna. Pharetra ut vitae purus arcu odio habitant fermentum. Pulvinar at pharetra ipsum adipiscing fringilla ultricies. Tempor magnis enim nec eu potenti. Est dolor etiam consectetur sed maecenas ut sagittis egestas dolor. Magna dui etiam feugiat eget sed diam parturient egestas ac.",
-                    "img":"url/img",
+                    "block":"textblock",
+                    "orientation":"left", 
+                    "title":"Что такое энергетическая кинезиология?",
+                    "h2":"font-serif",
+                    "description":"Энергетическая кинезиология – это метод, который объединяет физическое тело с его энергетическими системами для достижения гармонии и здоровья.",
+                    "p":"font-sans",
                     "bg":"false",
                     "more":"Подробнее...",
-                    "linkMore":"ru/#"
+                    "linkMore":"/ru/kinesiology"
                 },
                 {
                     "block":"blog",
@@ -77,6 +63,12 @@
                     "bg":"true",
                     "more":"Все новости...",
                     "linkMore":"/ru/blog"
+                },
+                {
+                    "block":"slider",
+                    "title":"Feedback",
+                    "bg":"false",
+                    "content":[]
                 }
 
             ]
@@ -84,7 +76,46 @@
         {
             "namePage":"about",
             "urlPage":"/ru/about",
-            "content":[]
+            "content":[
+
+                {
+                    "block":"head",
+                    "title":"Немного обо мне",
+                    "lengthTitle":"2",
+                    "description":"Меня зовут Наталья, я магистр психологии, кинезиолог, нейрокинезиолог и психотерапевтический кинезиолог.<br/><br/> <span class='underline font-medium font-semibold'>Моя миссия</span> — помогать людям находить гармонию между телом, разумом и эмоциями, снимая внутренние блоки и восстанавливая баланс.",
+                    "lengthDescription":"none",
+                    "orientation":"default", 
+                    "img":"url/img",
+                    "bg":"false",
+                    "linkMore":"",
+                    "more":"Подробнее...",
+                    "fb":"#",
+                    "in":"#",
+                    "tg":"#",
+                    "appointment":"Записаться",
+                    "linkAppointment":"https://wa.me/18182987426?text=Здравствуйте%20Наталья,%20я%20хочу%20записаться%20к%20вам%20на%20прием."
+                },
+                {
+                    "block":"textblock",
+                    "orientation":"left", 
+                    "title":"Моя миссия:",
+                    "description":"Помочь вам вспомнить, кто вы есть в своей глубине, раскрыть своё предназначение и понять истинный путь, который ведёт вас по жизни. Я стремлюсь пробудить ваше ощущение тела, научить вас слышать внутренний голос, доверять себе и окружающему миру. Открыв сердце, вы узнаете, что такое настоящая любовь — к себе, к людям, к жизни. <br/> Моя задача — помочь вам обрести баланс, внутреннюю гармонию и жить в согласии с вашей истинной природой.",
+                    "bg":"true",
+                    "more":"Подробнее...",
+                    "linkMore":""
+                },
+                {
+                    "block":"textblock",
+                    "orientation":"left", 
+                    "title":"Lorem ipsum dolor sit amet consectet",
+                    "description":"Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis. Lorem ipsum dolor sit amet consectetur. Phasellus phasellus egestas id praesent egestas volutpat. Tristique massa id gravida dictum hendrerit aliquam volutpat amet consectetur. Id aenean bibendum donec placerat purus. Ultrices nibh proin dis venenatis.",
+                    "bg":"false",
+                    "more":"Подробнее...",
+                    "linkMore":""
+                }
+                
+
+            ]
         }
     ]
 }

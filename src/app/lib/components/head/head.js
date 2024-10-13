@@ -11,6 +11,8 @@ export default function Head(props){
     let content = props.data;
     let orientation = props.orientation(content.orientation);
 
+    console.log(content);
+
     return(
         <div className={content.bg == 'true' ? "bgBox color" : "bgBox"}>
             {/* <div className='HeadBox contentBox'> */}
@@ -19,9 +21,9 @@ export default function Head(props){
                 <div className='leftSide'>
 
                     <div className='text'>
-                        <h1 className='line-clamp-2'>{content.title}</h1>
-                        <p className="line-clamp-4">{content.description}</p>
-                        <Link href={content.linkMore}><p className='text-blue-500'>{content.more}</p></Link>
+                        <h1 className={'line-clamp-'+content.lengthTitle}>{content.title}</h1>
+                        <p className={'text-[24px] font-light leading-normal line-clamp-'+content.lengthDescription} dangerouslySetInnerHTML={{__html:content.description}} ></p>
+                        {content.more && content.linkMore == ''?'':<Link href={content.linkMore}><p className='text-blue-500'>{content.more}</p></Link>}
                     </div>
                     <div className='socialIcon'>
 

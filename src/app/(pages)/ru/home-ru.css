@@ -28,7 +28,8 @@ body{
     flex
     flex-col
     items-center
-    py-24
+    py-6
+    sm:py-24
 }
 
 .color{
@@ -52,13 +53,16 @@ body{
 h1{
     @apply
     text-4xl
-    font-medium
+    font-serif
+    /* font-medium */
+    font-normal
     text-[#484E45]
 }
 
 h2{
  @apply
  text-3xl
+ /* font-serif */
  font-medium
  text-[#484E45]
 }
@@ -72,7 +76,7 @@ h3{
 
 p{
     @apply
-    text-base
+    text-lg
     text-[#484E45]
 }
 
@@ -81,7 +85,7 @@ p{
     flex
     flex-col-reverse
     sm:flex-row-reverse
-    gap-4
+    gap-6
 }
 
 .default{
@@ -89,7 +93,7 @@ p{
     flex
     flex-col-reverse
     sm:flex-row
-    gap-4
+    gap-6
 }
 
 .center{

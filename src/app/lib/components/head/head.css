@@ -16,6 +16,8 @@
 
 .img-head-size{
     @apply
+    bg-[url('../../img/personalPhoto.jpg')]
+    bg-cover
     w-[300px]
     h-[300px]
     md:w-[400px]
