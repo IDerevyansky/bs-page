@@ -2,12 +2,8 @@
     "menu":[
         {
             "name":"О себе",
-            "link":"/ru/about"
+            "link":"/ru"
         },
-        {
-            "name":"Кинезиология",
-            "link":"/ru/kinesiology"
-        }, 
         {
             "name":"Блог",
             "link":"/ru/blog"

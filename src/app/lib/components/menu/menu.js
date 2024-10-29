@@ -49,7 +49,7 @@ export default function Menu(){
     
                 <div className="logo"><Link href='/'><p className='text-lg'>kinesiohub.com</p></Link></div>
 
-                {/* <div className="mob-menu-icon" onClick={()=>mobMenu == 'flex'? setMobMenu('hidden'):setMobMenu('flex')}>
+                <div className="mob-menu-icon" onClick={()=>mobMenu == 'flex'? setMobMenu('hidden'):setMobMenu('flex')}>
 
                   <Image
                   src={ mobMenu=='hidden'? MenuIcon:closeIconMenu }
@@ -58,23 +58,23 @@ export default function Menu(){
                   alt='menu icon'
                   />
 
-                </div> */}
+                </div> 
 
-                {/* <div className={"mob-menu-items "+mobMenu}>
+                <div className={"mob-menu-items "+mobMenu}>
 
                     { 
                        menuItemMob() 
                     }
 
-                </div> */}
+                </div>
 
-                {/* <div className="menu-itmems">
+                <div className="menu-itmems">
 
                     { 
                        menuItem() 
                     }
                     
-                </div> */}
+                </div>
             </div> 
 
         </div> 
