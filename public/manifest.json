@@ -1,0 +1,21 @@
+{
+  "name": "kinesiohub.com",
+  "short_name": "kinesiohub",
+  "description": "Natalia Derevianskaia - Kinesiologist tel:+1 818 298 74 26 | kinesiohub.com",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#484E45",
+  "theme_color": "#484E45",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
